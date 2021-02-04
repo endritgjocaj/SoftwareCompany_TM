@@ -241,6 +241,7 @@ UNLOCK TABLES;
 -- Table structure for table `user`
 --
 
+SET FOREIGN_KEY_CHECKS=1;
 DROP TABLE IF EXISTS `user`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
  SET character_set_client = utf8mb4 ;
@@ -265,6 +266,7 @@ INSERT INTO `user` VALUES (117,'Arber117','jZae727K08KaOmKSgOaGzww/XVqGr/PKEgIMk
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+SET FOREIGN_KEY_CHECKS=0;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
