@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" minWidth="976.0" prefHeight="876.0" prefWidth="1182.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="softwarecompany_tm.user.HomeController">
+   <children>
+      <Label layoutX="50.0" layoutY="30.0" prefHeight="42.0" prefWidth="223.0" text="Home" textFill="#867c7c" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="35.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <PieChart fx:id="pieChartTasks" layoutX="93.0" layoutY="184.0" legendSide="LEFT" prefHeight="326.0" prefWidth="378.0" title="Tasks' status" />
+      <BarChart fx:id="pieChartProjectTasks" layoutX="614.0" layoutY="184.0" legendVisible="false" title="Projects' tasks">
+         <xAxis>
+            <CategoryAxis label="Projects" fx:id="x" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis fx:id="y" label="Number of tasks" side="LEFT" />
+         </yAxis>
+      </BarChart>
+      <JFXComboBox fx:id="comboBox" layoutX="845.0" layoutY="35.0" onAction="#onAccountClick" prefHeight="45.0" prefWidth="185.0" style="-fx-cursor: hand;" />
+      <ImageView fitHeight="42.0" fitWidth="44.0" layoutX="800.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/ASSET-USER-ADMIN.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="userLabelName" layoutX="845.0" layoutY="35.0" prefHeight="45.0" prefWidth="165.0" text="Xperson" textFill="#867c7c">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

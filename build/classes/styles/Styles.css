@@ -1,0 +1,163 @@
+
+.scroll-pane > .viewport{ 
+    -fx-background-color: white;
+}
+
+.table-row-cell:selected .table-cell{
+    -fx-background-color: rgba(0,0,0, 0.3);
+    -fx-text-fill: white;
+}
+
+.chart-title{
+    -fx-text-font: 10;
+}
+
+#homeButton{
+    -fx-text-fill: white;
+}
+
+#homeButton:hover{
+    -fx-background-color: #036a91;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+#homeButton:focused{
+    /*-fx-background-color: #2b383e;*/
+    -fx-text-fill: white;
+}
+
+#myTasksButton{
+    -fx-text-fill: white;
+}
+
+#myTasksButton:hover{
+    -fx-background-color: #036a91;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+#myTasksButton:focused{
+    /*-fx-background-color: #2b383e;*/
+    -fx-text-fill: white;
+}
+
+#myProfileButton{
+    -fx-text-fill: white;
+}
+
+#myProfileButton:hover{
+    -fx-background-color: #036a91;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+#myProfileButton:focused{
+    /*-fx-background-color: #2b383e;*/
+    -fx-text-fill: white;
+}
+
+#employeesButton{
+    -fx-text-fill: white;
+}
+
+#employeesButton:hover{
+    -fx-background-color: #036a91;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+#employeesButton:focused{
+    /*-fx-background-color: #275cc8;*/
+    -fx-text-fill: white;
+}
+
+
+#sectorsButton{
+    -fx-text-fill: white;
+}
+
+#sectorsButton:hover{
+    -fx-background-color: #036a91;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+#sectorstButton:focused{
+    /*-fx-background-color: #2b383e;*/
+    -fx-text-fill: white;
+}
+
+
+#projectsButton{
+    -fx-text-fill: white;
+}
+
+#projectsButton:hover{
+    -fx-background-color: #036a91;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+#projectsButton:focused{
+    /*-fx-background-color: #2b383e;*/
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+
+#tasksButton{
+    -fx-text-fill: white;
+}
+
+#tasksButton:hover{
+    -fx-background-color: #036a91;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+#tasksButton:focused{
+    /*-fx-background-color: #2b383e;*/
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+#adminsButton{
+    -fx-text-fill: white;
+}
+
+#adminsButton:hover{
+    -fx-background-color: #036a91;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+#adminsButton:focused{
+    /*-fx-background-color: #2b383e;*/
+    -fx-text-fill: white;
+}
+
+.jfx-combo-box .input-line{
+    -fx-pref-height: 0px;
+}
+.jfx-combo-box .input-focused-line{
+    -fx-pref-height: 0px;
+}
+
+.table-view .scroll-bar:horizontal .increment-arrow,
+.table-view .scroll-bar:horizontal .decrement-arrow,
+.table-view .scroll-bar:horizontal .increment-button,
+.table-view .scroll-bar:horizontal .decrement-button {
+    -fx-padding:0;
+}
+
+#tableView2 *.increment-button,
+#tableView2 *.decrement-button,
+#tableView2 *.increment-arrow,
+#tableView2 *.decrement-arrow
+{
+    -fx-padding: 0;
+    -fx-shape: "";
+}
+
+
